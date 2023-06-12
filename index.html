@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>MSIT Library</title>
+</head>
+<body>
+    <header>
+        <!-- Insert navbar and nav items here -->
+    </header>
+    <main>
+        <section id="banner"></section>
+        <section id="about"></section>
+        <section id = "services" class="se">
+            <div class="se-title"> Services </div>
+            <div class="se-grid">
+                <service-card title="Wi-fi Facility" img-src="./img/wifi.png"></service-card>
+                <service-card title="Koha Software" img-src="./img/koha.png"></service-card>
+                <service-card title="Printers & Scanners" img-src="./img/printers.png"></service-card>
+                <service-card title="Faculty Reading Room" img-src="./img/faculty.png"></service-card>
+                <service-card title="Newspapers" img-src="./img/newspaper.png"></service-card>
+                <service-card title="EBSCO Support" img-src="./img/EBSCO.png"></service-card>
+            </div>
+        </section>
+        <section id="rules"></section>
+        <section id="dnd" class="dnd">
+            <div class="dnd-header"> Dos and Dont’s </div>
+            <div class="dnd-card-section">
+                <dnd-card data-type="dos"></dnd-card>
+                <dnd-card data-type="donts"></dnd-card>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <footer-component></footer-component>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>

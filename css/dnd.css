@@ -1,0 +1,56 @@
+.dnd{
+  text-align: center;
+}
+
+.dnd-card-section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dnd-header{
+    color: #070D59;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0 40px;
+}
+
+.dnd-bullet{
+    width: 432px;
+    font-size: 18px;
+    height: 60px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.dnd-bullet--dark{
+    background-color: rgba(31, 60, 136, 0.5);
+}
+
+.dnd-bullet--light{
+    background-color: white;
+}
+
+.dnd-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dnd-card-header{
+    align-self: center;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F3C88;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    bottom: -30px;
+    position: relative;
+}
