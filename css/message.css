@@ -1,0 +1,63 @@
+.msg-card {
+  background-color: var(--dark);
+  border-radius: 2rem;
+  
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+  padding: 1.5rem;
+  max-width: 78%;
+  margin: 2rem auto;
+}
+
+.msg-card-img{
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  margin: 0;
+}
+
+.msg-card-img img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.msg-card-title {
+  color: var(--light);
+  font-weight: 700;
+  padding: 0.5rem;
+  font-size: var(--base-font);
+  margin-bottom: 0;
+}
+
+.msg-card-subtext {
+  color: var(--light);
+  font-weight: 400;
+  font-size: var(--sub-font);
+  padding: 0.5rem;
+  margin-top: 0;
+  font-style: italic;
+}
+
+.msg-card-text {
+  color: var(--light);
+  font-weight: 400;
+  font-size: var(--sub-font);
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+@media (max-width: 40rem) {
+  .msg-card {
+    background-color: var(--dark);
+    border-radius: 2rem;
+    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  
+    padding: 1.5rem;
+  }
+}

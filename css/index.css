@@ -4,3 +4,30 @@
 @import url('./chevron.css');
 @import url('./data-banner.css');
 @import url('./footer.css');
+@import url('./navbar.css');
+@import url('./banner.css');
+@import url('./message.css');
+@import url('./faculty.css');
+@import url('./about.css');
+
+:root {
+    --light: #F6F5F5;
+    --medium: #EE6F57;
+    --dark: #1F3C88;
+    --darkest: #070D59;
+    --base-font: 24px;
+    --sub-font: 20px;
+}
+
+body{
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1rem;
+    color: var(--darkest);
+}
