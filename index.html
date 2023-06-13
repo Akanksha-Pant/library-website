@@ -25,7 +25,35 @@
                 <service-card title="EBSCO Support" img-src="./img/EBSCO.png"></service-card>
             </div>
         </section>
-        <section id="rules"></section>
+        <section class="db">
+            <db-card title="Titles" value="270"></db-card>
+            <db-card title="Volumes" value="1042"></db-card>
+            <db-card title="E - Journals" value="1067"></db-card>
+            <db-card title="E - books" value="2295"></db-card>
+        </section>
+        <section id="rules" class="rs">
+            <div class="rs-header"> Rules </div>
+            <rule-card 
+              question="On what days can we issue a book from library ?"
+              answer="Books can be issued on any day between Monday and Friday."
+              >
+            </rule-card>
+            <rule-card 
+              question="How many books can we issue from library at once ?"
+              answer="15 books can be issued at once."
+              >
+            </rule-card>
+            <rule-card 
+              question="What is the duration for which a book can be issued ?"
+              answer="A book can be issued for 15 days."
+              >
+            </rule-card>
+            <rule-card 
+              question="What are the reading - hours of the library ?"
+              answer="Reading hours are between 12:00 PM to 4:00PM."
+              >
+            </rule-card>
+        </section>
         <section id="dnd" class="dnd">
             <div class="dnd-header"> Dos and Dont’s </div>
             <div class="dnd-card-section">
@@ -35,7 +63,6 @@
         </section>
     </main>
     <footer>
-        <footer-component></footer-component>
     </footer>
     <script src="./js/index.js" type="module"></script>
 </body>

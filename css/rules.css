@@ -1,0 +1,29 @@
+.rs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.rs-header{
+    color: #070D59;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0 40px;
+}
+
+.rs-card{
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: left;
+    border-bottom:solid 1px  black;
+    width: 756px;
+    padding: 20px;
+}
+
+.rs-card-ans{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #5A5A5A;
+}
