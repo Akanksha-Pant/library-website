@@ -28,14 +28,14 @@
   color: var(--light);
   font-weight: 700;
   padding: 0.5rem;
-  font-size: 32px;
+  font-size: var(--base-font);
   margin-bottom: 0;
 }
 
 .msg-card-subtext {
   color: var(--light);
   font-weight: 400;
-  font-size: 22px;
+  font-size: var(--sub-font);
   padding: 0.5rem;
   margin-top: 0;
   font-style: italic;
@@ -44,7 +44,7 @@
 .msg-card-text {
   color: var(--light);
   font-weight: 400;
-  font-size: 22px;
+  font-size: var(--sub-font);
   padding: 0.5rem;
   text-align: justify;
 }

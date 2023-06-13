@@ -11,9 +11,9 @@
 .about-content {
     height : 400px;
     color: var(--darkest);
-    font-size: 22px;
+    font-size: var(--base-font);
     text-align: justify;
-    width: 65%;
+    width: 62%;
     margin-left: 1rem;
     padding-top: 1rem;
 }
