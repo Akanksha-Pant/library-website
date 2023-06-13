@@ -4,16 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/index.css">
+    
     <title>MSIT Library</title>
 </head>
 <body>
-    <header>
-        <!-- Insert navbar and nav items here -->
-    </header>
+    <nav class="navbar">
+        <div class="logo-container">
+            <a href="#"><img class="logo-image" src="./img/msi-logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav-menu">
+          <li class="menu-item">
+            <a href="#faculty" rel="noopener noreferrer">Faculty</a>
+          </li>
+          <li class="menu-item">
+              <a href="#about" rel="noopener noreferrer">About</a>
+          </li>
+          <li class="menu-item">
+              <a href="#services" rel="noopener noreferrer">Services</a>
+          </li>
+          <li class="menu-item">
+            <a href="#rules" rel="noopener noreferrer">Rules</a>
+          </li>
+          <li class="menu-item">
+            <a href="#dnd" rel="noopener noreferrer">Do's and Dont's</a>
+          </li>
+          
+          <li class="menu-item">
+            <a href="#footer" rel="noopener noreferrer">Contact</a>
+          </li>
+        </ul>
+        <div id="nav-toggle" class="menu-icon">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+    </nav>
+    
     <main>
         <section id="banner"></section>
-        <section id="about"></section>
+
+        <section id="message">
+            <div class="msg-card">
+              <div class="msg-card-img"><img src="./img/Reetu Verma.jpg"></div>
+              <div class="msg-card-content">
+                <h2 class="msg-card-title">Message from the HOD</h2>
+                <p class="msg-card-subtext">Ms. Reetu Verma</p>
+                <p class="msg-card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros vel turpis iaculis porta. Proin efficitur dictum felis ut vehicula. Duis sed maximus erat, non feugiat mi. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan.
+                </p>
+              </div>
+            </div>
+        </section>
+
+        <section id="faculty">
+            <h1>Meet the Library Professionals</h1>
+            <div class="faculty-cards">
+              <div class="faculty-cards-item"><faculty-card title="Ms. Bhagyashree" text="Assistant Librarian" img-src="./img/Bhagyashree.jpeg"></faculty-card></div> 
+              <div class="faculty-cards-item"><faculty-card title="Mr. Rajiv Solanki" text="Assistant Librarian" img-src="./img/rajiv solanki.jpg"></faculty-card></div> 
+              <div class="faculty-cards-item"><faculty-card title="Mr. Khemchand" text="Assistant Librarian" img-src="./img/pp.webp"></faculty-card></div> 
+              <div class="faculty-cards-item"><faculty-card title="Dr. Pallavi Rajain" text="Library Comt Faculty" img-src="./img/Pallavi.jpeg"></faculty-card></div> 
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>About</h1>
+      
+            <div class="about-section">
+              <div class="about-content"> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros vel turpis iaculis porta. Proin efficitur dictum felis ut vehicula. Duis sed maximus erat, non feugiat mi. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros vel turpis iaculis porta. Proin efficitur dictum felis ut vehicula. Duis sed maximus erat, non feugiat mi. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros vel turpis iaculis porta. Proin efficitur dictum felis ut vehicula. Duis sed maximus erat, non feugiat mi. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et eros vel turpis iaculis porta. Proin efficitur dictum felis ut vehicula. Duis sed maximus erat, non feugiat mi. Nunc ac vehicula massa, ac condimentum dolor. Proin ullamcorper eget sem vitae accumsan.
+              </div>
+      
+              <div class="about-details">
+                <details-card icon="fa fa-building-o" info="Established: yyyy (place)"></details-card>
+                <details-card icon="fa fa-users" info="Staff: xx"></details-card>
+                <details-card icon="fa fa-clock-o" info="Working Hours: 9am - 4:40pm"></details-card>
+                <details-card icon="fa fa-calendar-times-o" info="Non-Working Days: 3rd Saturday"></details-card>
+                <details-card icon="fa fa-television" info="Automation: Fully Computerised"></details-card>
+                <details-card icon="fa fa-home" info="Address: 401 4th F MBA Block"></details-card>
+              </div>
+            </div>
+            
+        </section>
+
         <section id = "services" class="se">
             <div class="se-title"> Services </div>
             <div class="se-grid">
@@ -65,5 +142,6 @@
     <footer>
     </footer>
     <script src="./js/index.js" type="module"></script>
+    <script src="./js/components/navbar.js"></script>
 </body>
 </html>
