@@ -19,6 +19,10 @@
   .faculty-cards-item {
     width: 50%;
   }
+
+  .faculty-card {
+    margin-left: 1.5rem;
+  }
 }
 
 @media (min-width: 80rem) {
@@ -28,6 +32,10 @@
 
   .faculty-cards {
     height: 22rem;
+  }
+
+  .faculty-card {
+    margin-left: 1.5rem;
   }
 } 
 
@@ -39,7 +47,6 @@
   overflow: hidden;
   width: 120%;
   height: 65%;
-  margin-left: 1.5rem;
 }
 
 .faculty-card-image {
