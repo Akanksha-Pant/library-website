@@ -1,11 +1,11 @@
 .footer{
-	background-color: #1F3C88;
+	background-color: var(--dark);
 	display: flex;
 	flex-direction: column;
-	color: white;
+	color: var(--light);
 	padding: 20px;
 	margin-top: 40px;
-	font-size: 24px;
+	font-size: var(--base-font);
 }
 
 .footer-contact{
@@ -20,12 +20,32 @@
 	padding: 20px;
 }
 
-.footer-subhead{
-	font-weight: bold;
-}
-
 .footer-creator{
 	width: 100%;
 	text-align: center;
 	padding-bottom: 10px;
+}
+
+.footer-creator a:link, a:visited, a:hover, a:active{
+	color: var(--light);
+}
+  
+@media only screen and (max-width: 600px) {
+    .footer-contact{
+      flex-direction: column;
+	  font-size: 16px;
+	  align-items: center;
+    }
+
+	.footer{
+	  font-size: 16px;
+	  justify-content: center;
+	}
+
+	.footer-address, .footer-phone{
+		display: flex;
+		margin-top: 10px;
+		justify-content: space-evenly;
+	}
+
 }

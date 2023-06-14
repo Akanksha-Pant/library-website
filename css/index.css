@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+
 @import url('./dnd.css');
 @import url('./service.css');
 @import url('./rules.css');
@@ -22,7 +24,7 @@
 body{
     margin: 0;
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {

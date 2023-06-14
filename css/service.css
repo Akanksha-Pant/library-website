@@ -5,8 +5,8 @@
 }
 
 .se-title{
-    color: #070D59;
-    font-size: 24px;
+    color: var(--darkest);;
+    font-size: var(--base-font);
     font-weight: bold;
     padding: 20px 0 40px;
 }
@@ -30,6 +30,18 @@
 }
 
 .se-card-title{
-    font-size: 24px;
+    font-size: var(--base-font);
     padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .se-grid{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .se-card{
+        width: 100%;
+    }
 }

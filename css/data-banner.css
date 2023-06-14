@@ -1,7 +1,7 @@
 .db{
     display: flex;
     width: 100%;
-    background-color: #1F3C88;
+    background-color: var(--dark);
     justify-content: space-evenly;
     margin-bottom: 40px;
 }
@@ -12,15 +12,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--light);
 }
 
 .db-card-value{
     font-weight: bold;
     font-size: 56px;
+    display: flex;
 }
 
 .db-card-title{
     font-size: 24px;
     padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .db{
+       flex-direction: column;
+       width: inherit;
+    }
 }

@@ -6,18 +6,18 @@
 }
 
 .rs-header{
-    color: #070D59;
-    font-size: 24px;
+    color: var(--dark);
+    font-size: var(--base-font);
     font-weight: bold;
     padding: 20px 0 40px;
 }
 
 .rs-card{
-    color: black;
-    font-size: 24px;
+    color: var(--darkest);
+    font-size: var(--base-font);;
     display: flex;
     justify-content: left;
-    border-bottom:solid 1px  black;
+    border-bottom:solid 1px  var(--darkest);
     width: 756px;
     padding: 20px;
 }
@@ -26,4 +26,13 @@
     padding-left: 20px;
     padding-top: 10px;
     color: #5A5A5A;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .rs-card{
+        width: 90%;
+        padding: 20px 0;
+        margin-left: 20px;
+    }
 }
