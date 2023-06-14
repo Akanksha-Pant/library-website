@@ -4,6 +4,8 @@
 	flex-direction: column;
 	color: var(--light);
 	padding: 20px;
+	padding-left: 60px;
+	padding-right: 60px;
 	margin-top: 40px;
 	font-size: var(--base-font);
 }
@@ -23,7 +25,7 @@
 .footer-creator{
 	width: 100%;
 	text-align: center;
-	padding-bottom: 10px;
+	padding: 10px;
 }
 
 .footer-creator a:link, a:visited, a:hover, a:active{
