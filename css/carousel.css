@@ -1,5 +1,6 @@
 #carousel {
     position: relative;
+    overflow: hidden;
 }
 
 #carousel img {
@@ -27,5 +28,5 @@
 }
 
 .btn-2 {
-    width: 100%;
+    width: 105%;
 }

@@ -6,7 +6,7 @@
 }
 
 .rs-header{
-    color: var(--dark);
+    color: var(--darkest);
     font-size: var(--base-font);
     font-weight: bold;
     padding: 20px 0 40px;
