@@ -6,7 +6,7 @@
 @import url('./data-banner.css');
 @import url('./footer.css');
 @import url('./navbar.css');
-@import url('./banner.css');
+@import url('./carousel.css');
 @import url('./message.css');
 @import url('./faculty.css');
 @import url('./about.css');
@@ -27,8 +27,9 @@ body{
 }
 
 h1 {
-    font-size: 30px;
+    font-size: var(--base-font);
     font-weight: bold;
-    padding: 1rem;
+    padding: 1.5rem;
     color: var(--darkest);
+    text-align: center;
 }

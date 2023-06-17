@@ -44,7 +44,16 @@
     </nav>
     
     <main>
-        <section id="banner"></section>
+        <section id="carousel">
+          <img class="carousel-img" src="./img/ss1.png">
+          <img class="carousel-img" src="./img/ss2.jpeg">
+          <img class="carousel-img" src="./img/ss3.jpeg">
+          <img class="carousel-img" src="./img/ss4.png">
+          <div class="carousel-buttons">
+            <button class="btn-1" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="btn-2" onclick="plusDivs(1)">&#10095;</button>
+          </div>
+        </section>
 
         <section id="message">
             <div class="msg-card">
@@ -73,10 +82,11 @@
             <h1>About</h1>
             <div class="about-section">
               <div class="about-content"> 
-                MBA Library was started in the year 2022 with a meager collection of books and journals. At present MBA library maintains
-                a will accomplished stock of text and refrence books , journals and articles, audio-visuals, CDs, case studies etc.
-                All students, aculty members and employees of the institute are entitled to make use of library fascilities with library's online
-                integrated fascility KOHA.                 
+                The MBA Library was established in 2022 with a small assortment of books and journals. Currently, the library boasts an extensive collection of textbooks, reference books, journals, articles, audio-visual materials, CDs, and case studies. All students, faculty members, and employees of the institute have the privilege of utilizing the library's facilities, which are integrated online through KOHA.
+                
+                The MBA Library is fully automated and primarily focuses on management and related subjects. It houses a diverse array of resources, both in print and electronic formats, such as books, journals, databases, audio-visual materials, CDs/DVDs, e-journals, reports, case studies, conference proceedings, and training manuals. With its modern collection of knowledge resources and innovative information services, the library plays a vital role in supporting the intellectual pursuits of the academic community.
+                
+                As a hybrid library, the MBA Library incorporates cutting-edge technological applications. The entire library collection, including CD-ROM databases and online databases, can be accessed through the institute's network.
               </div>
       
               <div class="about-details">
@@ -172,6 +182,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/carousel.js"></script>
     <script src="./js/index.js" type="module"></script>
     <script src="./js/components/navbar.js"></script>
 </body>

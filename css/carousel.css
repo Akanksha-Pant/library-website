@@ -1,0 +1,31 @@
+#carousel {
+    position: relative;
+}
+
+#carousel img {
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.carousel-buttons button {
+    position: absolute;
+    bottom: 0; 
+    color: var(--darkest); 
+    background: none;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.btn-1 {
+    width: 92%;
+}
+
+.btn-2 {
+    width: 100%;
+}
