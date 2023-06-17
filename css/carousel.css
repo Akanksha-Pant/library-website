@@ -30,3 +30,17 @@
 .btn-2 {
     width: 105%;
 }
+
+@media (max-width: 40rem) {
+    #carousel img {
+        height: 400px;
+    }   
+    .btn-1 {
+        width: 85%;
+    }
+    
+    .btn-2 {
+        width: 105%;
+    } 
+}
+  
